@@ -5,6 +5,7 @@ const morgan = require('morgan');
 const cors = require('cors');
 const router = require('./router/router');
 const { HOST, PORT } = require('./config');
+const path = require('path');
 
 const app = new express();
 
@@ -12,6 +13,13 @@ app.use(morgan('tiny'));
 app.use(express.json());
 app.use(cors());
 app.use(router);
+
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static('./../client/build'));
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+  });
+}
 
 app.listen(PORT, (err) => {
   if (err) console.log(err);
