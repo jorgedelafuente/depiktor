@@ -1,0 +1,22 @@
+{
+  "name": "depiktor",
+  "version": "1.0.0",
+  "description": "Web application integrated with Twitter API to display current trends in technology.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juno-Jung/depiktor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juno-Jung/depiktor/issues"
+  },
+  "homepage": "https://github.com/Juno-Jung/depiktor#readme"
+}
