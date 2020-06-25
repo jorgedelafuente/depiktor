@@ -1,6 +1,6 @@
 # depiktor
 
-### Deployed App : https://depiktor.herokuapp.com/
+## Deployed App : https://depiktor.herokuapp.com/
 
 Web application integrated with Twitter API to display current trends in technology.
 
