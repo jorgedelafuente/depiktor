@@ -1,5 +1,7 @@
 # depiktor
 
+### Deployed App : https://depiktor.herokuapp.com/
+
 Web application integrated with Twitter API to display current trends in technology.
 
 ![Alt text](/assets/depiktor.png?raw=true "Optional Title")
@@ -50,8 +52,13 @@ First, run create_technologies.js file under the folder migrations using Node.
 
 Next, run background_worker.js and background_worker_2.js. These programs will run at the indicated time and populate the database with data through Twitter API calls. They are schedule to run once every hour, and each background worker populates half of the database.
 
-The goal is to have the database populated with data over several days.
+The goal is to have the database populated with data over several days. To configure the topics fetched from the twitter API, go to server/seeders/query-terms.js and add or remove terms in this file.
+
 
 ## Using Mock Data
 
-In the ApiClient.js file of the service folder (client/src/service), follow the instructions at the top of the file to use mock data for the client instead of the database.
+In the ApiClient.js file of the services folder (client/src/services), follow the instructions at the top of the file to use mock data for the client instead of the database.
+
+## Configure Data on React client
+
+In the metaData.js file of the services folder (client/src/services), you can adapt the categories and color options by modifying the properties in the arrays found in the properties of queryTerms or colorOptions.
