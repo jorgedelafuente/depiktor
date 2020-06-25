@@ -28,23 +28,27 @@ NodeJS
 
 1. Clone the repository.
 2. Run `npm install` in both the server and client folders.
-3. Create an .env file in your client root folder with `SKIP_PREFLIGHT_CHECK=true`.
-4. Create an .env file in your server root folder with the environment variables shown below.
-5. Run nodemon in the server root folder.
-6. Populate the database with data (or use mock data).
-7. Run `npm start` in your client root folder.
+3. Create an .env file in your server and client root folders. Refer to the loading and configuring section below.
+4. Run nodemon in the server root folder.
+5. Populate the database with data (or use mock data).
+6. Run `npm start` in your client root folder.
 
 ## Loading and configuring the module
 
 For this project, we use a MongoDB database along with some Twitter API keys. Set up and run your MongoDB database.
 
-Create a .env file in the server folder with the following variables:
+Create a .env file in the **server** folder with the following variables:
 
     TWITTER_CONSUMER_KEY=TWITTER_CONSUMER_KEY
     TWITTER_CONSUMER_SECRET=TWITTER_CONSUMER_SECRET
     HOST=localhost
     PORT=3001
     DB_URI=MONGODB_URI
+
+Create a .env file in the **client** folder with the following variables: 
+
+    REACT_APP_API_URL="http://localhost:3001"
+    SKIP_PREFLIGHT_CHECK=true
 
 ## How to get Twitter Data
 
