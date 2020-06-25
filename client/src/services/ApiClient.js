@@ -4,7 +4,7 @@
 const BASE_URL = 'http://localhost:3001';
 
 function getTechnologies() {
-  return fetchRequest('/'); // Comment this out if you want to use mock data.
+  return fetchRequest('/tweetdata'); // Comment this out if you want to use mock data.
 
   // return Promise.resolve(mongoMocks); // Use this lines to access mock data for the client.
 }
