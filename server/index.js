@@ -15,13 +15,7 @@ app.use(cors());
 app.use(router);
 
 if (process.env.NODE_ENV === 'production') {
-<<<<<<< HEAD
   app.use(express.static(path.resolve(__dirname, '../client/build')));
-=======
-  // app.use(express.static('client/build'));
-  const publicPath = path.join(__dirname, '..', 'public');
-  app.use(express.static(publicPath));
->>>>>>> 85f6c9e66b095d2cbd64c255905d3b82e87fedf8
   app.get('*', (req, res) => {
     res.sendFile(
       path.resolve(__dirname, '..', 'client', 'build', 'index.html')
