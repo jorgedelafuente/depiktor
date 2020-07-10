@@ -12,18 +12,18 @@ Created by: Francisco Silva, Jorge de la Fuente, Juno Jung
 
 ### Front End
 
-ChartJS
-Jest
-React
-React Testing Library
+ChartJS\
+Jest\
+React\
+React Testing Library\
 SASS
 
 ### Back End
 
-Express
-Jasmine
-MongoDB
-Mongoose
+Express\
+Jasmine\
+MongoDB\
+Mongoose\
 NodeJS
 
 ## Installation
