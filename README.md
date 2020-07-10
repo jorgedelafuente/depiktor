@@ -4,6 +4,8 @@
 
 Web application integrated with Twitter API to display current trends in technology.
 
+Created by: Francisco Silva, Jorge de la Fuente, Juno Jung
+
 ![Alt text](/assets/depiktor.png?raw=true "Optional Title")
 
 ## Tech Stack
