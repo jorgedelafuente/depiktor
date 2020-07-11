@@ -1,12 +1,14 @@
 # depiktor
 
-## Deployed App : https://depiktor.herokuapp.com/
+## Deployed App : https://depiktor-charts.netlify.app/
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f6b54b0c-c977-4e09-98a4-bd41ea16e51c/deploy-status)](https://app.netlify.com/sites/depiktor-charts/deploys)
 
 Web application integrated with Twitter API to display current trends in technology.
 
-Contributors : Francisco Silva, Jorge de la Fuente, Juno Jung
+By : Sofiya Lazarova
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f6b54b0c-c977-4e09-98a4-bd41ea16e51c/deploy-status)](https://app.netlify.com/sites/depiktor-charts/deploys)
+Contributors : Francisco Silva, Jorge de la Fuente, Juno Jung
 
 ## Tech Stack
 
