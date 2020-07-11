@@ -4,9 +4,9 @@
 
 Web application integrated with Twitter API to display current trends in technology.
 
-Created by: Francisco Silva, Jorge de la Fuente, Juno Jung
+Contributors : Francisco Silva, Jorge de la Fuente, Juno Jung
 
-![Alt text](/assets/depiktor.png?raw=true "Optional Title")
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f6b54b0c-c977-4e09-98a4-bd41ea16e51c/deploy-status)](https://app.netlify.com/sites/depiktor-charts/deploys)
 
 ## Tech Stack
 
